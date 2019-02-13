@@ -1,3 +1,37 @@
-.l-left-sidebar {
-  background-color: red;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  grid-template-rows: 1fr 2fr 3fr 8fr;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar top"
+    "sidebar graphs"
+    "sidebar main";
 }
+
+.l-left-sidebar {
+  background-color: #354052;
+  grid-area: sidebar;
+}
+
+.l-header {
+  background-color: blue;
+  grid-area: header;
+}
+
+.l-top {
+  background-color: green;
+  grid-area: top;
+}
+
+.l-graphs {
+  background-color: #EDF2F6;
+  grid-area: graphs;
+}
+
+.l-main {
+  background-color: #EDF2F6;
+  border-top: 2px solid grey;
+  grid-area: main;
+}
+
