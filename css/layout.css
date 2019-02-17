@@ -1,10 +1,10 @@
 .grid {
   display: grid;
   grid-template-columns: auto 7fr;
-  grid-template-rows: 1fr 2fr 3fr 8fr;
+  grid-template-rows: auto 2fr 3fr 8fr;
   grid-template-areas:
+    "sidebar top-search"
     "sidebar header"
-    "sidebar top"
     "sidebar graphs"
     "sidebar main";
 }
@@ -14,14 +14,14 @@
   grid-area: sidebar;
 }
 
-.l-header {
-  background-color: blue;
-  grid-area: header;
+.l-search-bar {
+  background-color: #FFFFFF;
+  grid-area: top-search;
 }
 
-.l-top {
-  background-color: green;
-  grid-area: top;
+.l-header {
+  /*background-color: blue;*/
+  grid-area: header;
 }
 
 .l-graphs {
