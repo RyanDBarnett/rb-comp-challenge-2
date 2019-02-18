@@ -1,10 +1,11 @@
 .grid {
   display: grid;
   grid-template-columns: auto 7fr;
-  grid-template-rows: auto 2fr 3fr 8fr;
+  grid-template-rows: auto 2fr auto 3fr 8fr;
   grid-template-areas:
     "sidebar top-search"
-    "sidebar header"
+    "sidebar top-header"
+    "sidebar header-nav"
     "sidebar graphs"
     "sidebar main";
 }
@@ -19,9 +20,16 @@
   grid-area: top-search;
 }
 
-.l-header {
-  /*background-color: blue;*/
-  grid-area: header;
+.l-top-header {
+  padding: 0 3em;
+  grid-area: top-header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.l-header-nav {
+  padding: 0 3em;
 }
 
 .l-graphs {

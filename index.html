@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/modules/left-sidebar.css">
   <link rel="stylesheet" href="css/modules/search-bar.css">
+  <link rel="stylesheet" href="css/modules/top-header.css">
+  <link rel="stylesheet" href="css/modules/header-nav.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
 </head>
@@ -129,8 +131,33 @@
         <i class="fas fa-th fa-lg"></i>
       </li>
   </section>
-  <header class="l-header">
+  <header class="l-top-header">
+    <div id="top-header-left-container">
+      <h2>Customer Service Representative</h2>
+      <div id="location-preview-container">
+        <i class="fas fa-map-marker-alt"></i>
+        <p id="location">San Francisco, CA</p>
+        <p id="preview-post">Preview this post</p>
+      </div>
+    </div>
+    <div id="top-header-right-container">
+      <p id="open-button"><i class="fas fa-circle"></i>OPEN</p>
+      <i class="fas fa-bookmark"></i>
+      <i class="fas fa-pencil-alt"></i>
+      <i class="fas fa-trash-alt"></i>
+    </div>
   </header>
+  <nav class="l-header-nav">
+    <ul id="header-nav">
+      <li>Summary</li>
+      <li>Applicants</li>
+      <li>Job Board</li>
+      <li>Interviews</li>
+      <li>Activity</li>
+      <li>Broadcast</li>
+      <li>Notifications</li>
+    </ul>
+  </nav>
   <section class="l-graphs">
     Graphs
   </section>
