@@ -22,7 +22,7 @@ You can visit the live finished version of this project at https://ryandbarnett.
 
 ## What The Site Should Look Like
 
-![website comp](images/comp-1.png)
+![website comp](images/better-quality-SC3.png)
 
 ## Finished Project
 
