@@ -6,7 +6,7 @@ You can visit the live finished version of this project at https://ryandbarnett.
 
 ## Key Features
 
-* **Responsive** - The content looks good on any screen size
+* **Chart.js** - Uses Chart.js library to create circle graphs
 * **Flexbox** - Uses flexbox to make layout fluid
 * **Grid** - Uses css grid
 
