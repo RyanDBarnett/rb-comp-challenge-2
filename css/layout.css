@@ -35,6 +35,10 @@
 .l-graphs {
   background-color: #EDF2F6;
   grid-area: graphs;
+  display: flex;
+  padding: 0 3em;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .l-main {
@@ -42,5 +46,8 @@
   grid-area: main;
   display: flex;
   padding: 3em;
+}
+
+@media screen and (max-width: 1250px) {
 }
 

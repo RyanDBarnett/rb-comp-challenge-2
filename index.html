@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="css/modules/header-nav.css">
   <link rel="stylesheet" href="css/modules/table.css">
   <link rel="stylesheet" href="css/modules/table-sidebar.css">
+  <link rel="stylesheet" href="css/modules/graphs.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+  <script src="js/node_modules/chart.js/dist/Chart.js"></script>
 </head>
 <body class="grid">
   <aside class="l-left-sidebar">
@@ -161,7 +163,38 @@
     </ul>
   </nav>
   <section class="l-graphs">
-    Graphs
+    <div id="left-graph-container">
+      <div id="circle-charts">
+        <div class="circle">
+          <canvas id="chart1" width="200" height="200"></canvas>
+          <h2>3,154 <br/> 
+            <span>APPLICANTS</span>
+          </h2>
+        </div>
+        <div class="circle">
+          <canvas id="chart2" width="200" height="200"></canvas>
+          <h2>1,546 <br/> 
+            <span>INTERVIEWS</span>
+          </h2>
+        </div>
+        <div class="circle">
+          <canvas id="chart3" width="200" height="200"></canvas>
+          <h2>912 <br/> 
+            <span>FORWARDS</span>
+          </h2>
+        </div>
+      </div>
+      <br />
+      <button>
+        TOTALS
+        <span>Out of 5,231 views</span>
+      </button>
+    </div>
+    <div id="right-grpah-container">
+      <img src="images/bar-graph.png" />
+      <br />
+      <button>APPLICANTS/DAY</button>
+    </div>
   </section>
   <main class="l-main">
     <table id="job-table">
@@ -203,25 +236,46 @@
       </tr>
     </table>
     <aside id="social-media-aside">
-      <button id="facebook">Post to Facebook</button>
-      <button id="twitter">Tweet this Job</button>
-      <button id="linkedin">Post to Linkedin</button>
+      <button id="facebook">
+        <i class="fab fa-facebook-f"></i>Post to Facebook
+      </button>
+      <button id="twitter">
+        <i class="fab fa-twitter"></i>Tweet this Job
+      </button>
+      <button id="linkedin">
+        <i class="fab fa-linkedin-in"></i>Post to Linkedin
+      </button>
       <div>
-        <h3><i class="fas fa-globe-americas fa-inverse"></i>Link to this Job</h3>
+        <h3><i class="fas fa-globe-americas"></i>Link to this Job</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer mollis neque eget vestibpend.</p>
-        <input />
+        <div id="search_wrapper">
+          <input type="text" id="email_field" value="http://loremipsum.dol/sit amet..." />
+          <button class="copy-btn">Copy</button>
+        </div>
       </div>
+      <hr />
       <div>
-        <h3>Use the Button Widget</h3>
+        <h3><i class="fab fa-jedi-order"></i>Use the Button Widget</h3>
         <p>This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
-        <input />
+        <div id="search_wrapper">
+          <input type="text" id="email_field" value="<script type='text/javascript' s..." />
+          <button class="copy-btn">Copy</button>
+        </div>
       </div>
+      <hr />
       <div>
-        <h3>Upload Resumes by Email</h3>
+        <h3>
+          <i class="fas fa-paper-plane"></i>
+        Upload Resumes by Email
+        </h3>
         <p>You can automatically upload multiple resumes to this job by emailing the address below.</p>
-        <input />
+        <div id="search_wrapper">
+          <input type="text" id="email_field" value="tomtizzy@gmail.com" />
+          <button class="copy-btn">Copy</button>
+        </div>
       </div>
     </aside>
   </main>
+  <script src="charts.js"></script>
 </body>
 </html>

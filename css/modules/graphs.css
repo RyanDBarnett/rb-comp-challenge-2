@@ -1,0 +1,48 @@
+#circle-charts {
+  display: flex;
+}
+
+.circle:nth-of-type(2) {
+  margin: 0 1em;
+}
+
+.circle {
+  position: relative;
+}
+
+.circle h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 35px;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #67748B;
+}
+
+.circle h2 span {
+  font-size: 18px;
+}
+
+.l-graphs button {
+  color: #67748B;
+  border: 2px solid #a4aec05e;
+  border-radius: 20px/50%;
+  padding: .5em 1.5em;
+  display: block;
+  margin: 1.5em auto 0;
+  cursor: pointer;
+}
+
+.l-graphs button:hover {
+  color: white;
+  background-color: #53AEF8;
+  border: 2px solid transparent;
+}
+
+.l-graphs button span:before {
+    content: '\2022';
+    padding: 0 10px;
+    color: #a4aec05e;
+}
