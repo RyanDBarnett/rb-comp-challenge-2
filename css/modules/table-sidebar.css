@@ -1,6 +1,72 @@
 #social-media-aside button {
-    padding: 1em;
-    margin-bottom: 1em;
-    border-radius: 5px;
-    width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+}
+
+#social-media-aside button svg {
+  float: left;
+}
+
+#social-media-aside hr {
+  border-color: #a4aec05e;
+}
+
+#social-media-aside > div {
+  margin: 1.5em 0;
+}
+
+#facebook {
+  background-color: #4F6EBB;
+}
+
+#twitter {
+  background-color: #47A7E9;
+}
+
+#linkedin {
+  background-color: #3580B8;
+}
+
+#search_wrapper {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+#search_wrapper input {
+  border: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 1em;
+  color: #A4AEC0;
+  font-size: 15px;
+}
+
+#search_wrapper .copy-btn {
+  background-color: #62AFB5;
+  border: none;
+  margin: 0;
+  padding: 5px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  padding: 1em;
+}
+
+#search_wrapper:last-of-type {
+  margin-bottom: 0;
+}
+
+#social-media-aside div h3 {
+  color: #67748B;
+}
+
+#social-media-aside div h3 svg {
+  padding-right: 5px;
+}
+
+#social-media-aside p  {
+  color: #A4AEC0;
 }
