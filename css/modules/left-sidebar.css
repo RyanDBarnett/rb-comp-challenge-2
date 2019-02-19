@@ -1,0 +1,95 @@
+.l-left-sidebar li svg {
+  padding-right: 15px;
+  min-width: 30px;
+}
+
+.l-left-sidebar section {
+  border-top: #2E3644 3px solid;
+}
+
+.l-left-sidebar h3 {
+  padding: 2em 0 0 1.5em;
+  color: #67748B;
+}
+
+.l-left-sidebar li {
+  padding: 1em 1.5em;
+  border-left: 4px solid transparent;
+}
+
+.l-left-sidebar nav li:hover {
+  background-color: #313948;
+  border-left: 4px solid #53AEF8;
+  width: 100%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#user-container {
+  text-align: center;
+  padding: 1.5em;
+}
+
+#user-container img {
+  border-radius: 50%;
+}
+
+#user-container p {
+    margin: 1em;
+    color: #A4AEC0;
+}
+
+#user-container svg {
+  padding-left: 10px;
+}
+
+#categories span {
+  padding-left: 10px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label:before {
+  border: 1px solid #333;
+  content: "\00a0";
+  padding: 0 2px 3px 2px;
+  display: inline-block;
+  border-radius: 4px;
+  height: 16px;
+  margin: 0 .45em 0 0;
+  width: 16px;
+  /*cursor: pointer;*/
+}
+
+input[type="checkbox"]:checked + label:before {
+  padding: 0 2px 3px 2px;
+  color: #333333;
+  content: url('../../images/check-solid.svg');
+  text-align: center;
+}
+
+input[type="checkbox"]:checked + label:after {
+  font-weight: bold;
+}
+
+#administration + label:before {
+    background: #F4D149;
+}
+
+#design + label:before {
+    background: #53AEF8;
+}
+
+#executive + label:before {
+    background: #D63662;
+}
+
+#human-resources + label:before {
+    background: #4AA78B;
+}

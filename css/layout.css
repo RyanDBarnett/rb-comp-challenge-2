@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-template-columns: 1fr 7fr;
+  grid-template-columns: auto 7fr;
   grid-template-rows: 1fr 2fr 3fr 8fr;
   grid-template-areas:
     "sidebar header"
