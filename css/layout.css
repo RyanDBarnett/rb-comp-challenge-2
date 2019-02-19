@@ -39,7 +39,8 @@
 
 .l-main {
   background-color: #EDF2F6;
-  border-top: 2px solid grey;
   grid-area: main;
+  display: flex;
+  padding: 3em;
 }
 
