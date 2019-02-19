@@ -15,6 +15,7 @@ You can visit the live finished version of this project at https://ryandbarnett.
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [Chart.js](https://www.chartjs.org/)
 
 ## Authors
 
@@ -31,3 +32,7 @@ You can visit the live finished version of this project at https://ryandbarnett.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgements
+
+Big thanks to [Nim Garcia](http://github.com/NimSum) for help with Chart.js!
