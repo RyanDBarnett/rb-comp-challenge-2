@@ -26,7 +26,7 @@ You can visit the live finished version of this project at https://ryandbarnett.
 
 ## Finished Project
 
-![ryans website](images/rb-comp-1.png)
+![ryans website](images/static-comp-2-screenshot.png)
 
 ## License
 
